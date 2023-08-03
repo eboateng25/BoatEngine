@@ -6,6 +6,7 @@ BoatEngine is a Java game development framework based on OpenGL, designed for Wi
 ## What's next?
 There is a lot of work that needs to be done on this project at this current moment in time but a list of features that will be completed in due course include:
 - Migration to LWGL 3 (The project was built in 2016 and still uses LWJGL 2. As the project is still in earlier stages and migration to LWJGL 3 before further development would be best)
+- Documentation
 - Transformations
 - Controller support (Includes mouse, keyboard, and even controller support)
 - Animations
