@@ -78,8 +78,6 @@ public class Image {
             GL11.glVertex2f((X+texture.getImageWidth()) * SCALEX,(Y+texture.getImageHeight()) * SCALEY);
             glTexCoord2f(0, 0); // top left
             GL11.glVertex2f((X) * SCALEX,(Y+texture.getImageHeight()) * SCALEY);
-        System.out.println("Imge = "+texture.getImageWidth());
-        System.out.println("Texture = "+texture.getTextureWidth());
         GL11.glEnd();
         glUseProgram(0);
     }
